@@ -40,6 +40,25 @@ android {
 }
 
 dependencies {
+    //retrofit for Query
+    implementation(libs.com.squareup.retrofit)
+
+    //converter Gson
+    implementation(libs.com.squareup.retrofit.converter.gson)
+
+    //Add Viewmodel compose
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
+    //Uses Google Map Location services
+    implementation(libs.com.google.android.gms.play.services.location)
+
+    //compose
+    implementation(libs.com.google.maps.android.compose)
+    //Uses Google Map
+    implementation(libs.com.google.android.gms.play.services.maps)
+
+    // Navigation Compose for NavController
+    implementation(libs.androidx.navigation.compose)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
